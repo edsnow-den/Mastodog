@@ -1,0 +1,191 @@
+/* title section */
+#title{
+    font-family: "Montserrat-Alternates";
+    padding-bottom:4.5;
+    
+}
+
+
+/* header group styling */
+
+h1, h2,h3{
+    padding-bottom: 1.5rem;
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-item .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    right: 30%;
+    position: absolute;
+}
+
+/* features */
+.row1{
+    padding-top: 4rem;
+    padding-left: 10rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.feature-box{
+    padding-bottom: 4.5rem;
+}
+
+
+
+#features{
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.feature-box i{
+    padding-bottom: 1rem;
+}
+
+/* testimonials */
+
+#testimonials{
+    color: #fff;
+    font-family: "";
+}
+
+
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* press */
+
+#press{
+    padding-bottom: 3%;
+
+}
+
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*  */
+
+/* pricing */
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Media queries */
+
+@media (max-width:992px){
+
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+    
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* cta section */
+
+#cta{
+    color: #fff;
+}
+
+/* footer */
+#footer{
+    background-color: #fff;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* Group styling */
+#footer, #cta, #pricing, .feature-box, #testimonials, #press{
+    text-align: center;
+}
+
+.carousel-item, #features, #footer, #cta{
+    padding: 7% 15%;
+}
+
+#title, #myBtn, #cta{
+    background-color: #ff4c68; /* Set a background color */
+}
+
+#myBtn:hover, #press, #testimonials {
+    background-color: #ef8172; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+/* Go to top arrow */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  
